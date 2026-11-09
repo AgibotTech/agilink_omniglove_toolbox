@@ -2,23 +2,23 @@
 
 [English Documentation](README.md)
 
-OmniGlove Toolbox 是用于连接 OmniGlove 手套、查看触觉与运动数据、个人标定、OmniHand 遥操作及固件升级的桌面上位机。本仓库提供 **v1.0.0** 安装包与使用文档。
+OmniGlove Toolbox 是用于连接 OmniGlove 手套、查看触觉与运动数据、个人标定、OmniHand 遥操作及固件升级的桌面上位机。本仓库提供 **v1.0.1** 安装包与使用文档。
 
 ## 快速链接
 
 - [快速入门指南](doc/zh_cn/QUICK_START.md)
 - [故障排除](doc/zh_cn/TROUBLESHOOTING.md)
-- [下载 v1.0.0](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.0)
+- [下载 v1.0.1](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.1)
 - [版本说明](CHANGELOG.md)
 
 ## 下载
 
 | 平台 | 安装包 | SHA-256 |
 | --- | --- | --- |
-| Ubuntu 22.04 / 24.04 x86_64 | [Debian 安装包](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox_1.0.0-1_amd64.deb) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox_1.0.0-1_amd64.deb.sha256) |
-| Ubuntu 22.04 / 24.04 x86_64 | [tar.gz 便携包](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-linux-x86_64.tar.gz) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-linux-x86_64.tar.gz.sha256) |
-| Windows x64 | [安装程序](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64-setup.exe) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64-setup.exe.sha256) |
-| Windows x64 | [ZIP 便携包](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64.zip) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64.zip.sha256) |
+| Ubuntu 22.04 / 24.04 x86_64 | [Debian 安装包](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox_1.0.1-1_amd64.deb) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox_1.0.1-1_amd64.deb.sha256) |
+| Ubuntu 22.04 / 24.04 x86_64 | [tar.gz 便携包](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-linux-x86_64.tar.gz) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-linux-x86_64.tar.gz.sha256) |
+| Windows x64 | [安装程序](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64-setup.exe) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64-setup.exe.sha256) |
+| Windows x64 | [ZIP 便携包](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64.zip) | [校验文件](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64.zip.sha256) |
 
 ## 平台文档
 
@@ -36,7 +36,7 @@ OmniGlove Toolbox 是用于连接 OmniGlove 手套、查看触觉与运动数据
 - 支持 OmniHand 2025（O10）、Ultra T1.3、Ultra T1.5、Lite 的仿真及实机遥操作，并可用 `.ogteleop` 录制、回放手套输入。
 - 校验并升级设备固件，支持 BIN/HEX 文件。
 
-具体操作见基于 v1.0.0 上位机整理的[快速入门指南](doc/zh_cn/QUICK_START.md)。
+具体操作见[快速入门指南](doc/zh_cn/QUICK_START.md)。
 
 ## 仓库结构
 
@@ -49,7 +49,7 @@ linux/x64/               Linux 安装包和校验文件
 windows/x64/             Windows 安装包和校验文件
 ```
 
-安装包使用 Git LFS 保存。如需克隆仓库，请先安装 Git LFS，再执行 `git lfs pull` 获取完整文件。直接安装可使用上方 Release 下载链接。
+v1.0.1 安装包请使用上方 Release 下载链接。平台目录中保留的历史安装包通过 Git LFS 保存。
 
 ## 许可证
 
