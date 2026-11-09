@@ -2,23 +2,23 @@
 
 [中文文档](README_zh_cn.md)
 
-OmniGlove Toolbox is the desktop application for connecting OmniGlove gloves, viewing tactile and motion data, personal calibration, OmniHand teleoperation, and firmware updates. This repository provides **v1.0.0** installation packages and usage documentation.
+OmniGlove Toolbox is the desktop application for connecting OmniGlove gloves, viewing tactile and motion data, personal calibration, OmniHand teleoperation, and firmware updates. This repository provides **v1.0.1** installation packages and usage documentation.
 
 ## Quick Links
 
 - [Quick Start Guide](doc/en/QUICK_START.md)
 - [Troubleshooting](doc/en/TROUBLESHOOTING.md)
-- [Download v1.0.0](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.0)
+- [Download v1.0.1](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.1)
 - [Release Notes](CHANGELOG.md)
 
 ## Downloads
 
 | Platform | Package | SHA-256 |
 | --- | --- | --- |
-| Ubuntu 22.04 / 24.04 x86_64 | [Debian installer](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox_1.0.0-1_amd64.deb) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox_1.0.0-1_amd64.deb.sha256) |
-| Ubuntu 22.04 / 24.04 x86_64 | [Portable tar.gz](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-linux-x86_64.tar.gz) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-linux-x86_64.tar.gz.sha256) |
-| Windows x64 | [Setup installer](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64-setup.exe) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64-setup.exe.sha256) |
-| Windows x64 | [Portable ZIP](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64.zip) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.0/omniglove-toolbox-1.0.0-windows-x86_64.zip.sha256) |
+| Ubuntu 22.04 / 24.04 x86_64 | [Debian installer](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox_1.0.1-1_amd64.deb) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox_1.0.1-1_amd64.deb.sha256) |
+| Ubuntu 22.04 / 24.04 x86_64 | [Portable tar.gz](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-linux-x86_64.tar.gz) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-linux-x86_64.tar.gz.sha256) |
+| Windows x64 | [Setup installer](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64-setup.exe) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64-setup.exe.sha256) |
+| Windows x64 | [Portable ZIP](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64.zip) | [Checksum](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/download/v1.0.1/omniglove-toolbox-1.0.1-windows-x86_64.zip.sha256) |
 
 ## Platform Documentation
 
@@ -36,7 +36,7 @@ The packages include Qt/QML, the OmniGlove and OmniHand runtimes, and the MuJoCo
 - Teleoperate OmniHand 2025 (O10), Ultra T1.3, Ultra T1.5, and Lite in simulation or with hardware; record and replay glove inputs as `.ogteleop`.
 - Validate and update device firmware using BIN/HEX files.
 
-See the [Quick Start Guide](doc/en/QUICK_START.md) for the v1.0.0 workflow.
+See the [Quick Start Guide](doc/en/QUICK_START.md) for the application workflow.
 
 ## Repository Layout
 
@@ -49,7 +49,7 @@ linux/x64/               Linux packages and checksums
 windows/x64/             Windows packages and checksums
 ```
 
-Installation packages are tracked with Git LFS. For a local repository checkout, install Git LFS before cloning, then run `git lfs pull`. For installation, use the Release downloads above.
+Download v1.0.1 packages from the Release links above. Earlier packages remain in the platform directories and are tracked with Git LFS.
 
 ## License
 

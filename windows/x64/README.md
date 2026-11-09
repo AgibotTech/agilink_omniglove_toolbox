@@ -4,31 +4,31 @@
 
 For Windows x64. Qt, SDKs, VC++ libraries and the simulation runtime are included. Configure device and OpenGL graphics drivers for the hardware.
 
-Download a package and its matching `.sha256` file from the [v1.0.0 Release](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.0).
+Download a package and its matching `.sha256` file from the [v1.0.1 Release](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.1).
 
 ## Verify a Download
 
 In the download directory, verify the installer with PowerShell:
 
 ```powershell
-$package = 'omniglove-toolbox-1.0.0-windows-x86_64-setup.exe'
+$package = 'omniglove-toolbox-1.0.1-windows-x86_64-setup.exe'
 $expected = ((Get-Content -LiteralPath ($package + '.sha256') -Raw).Trim() -split '\s+')[0]
 $actual = (Get-FileHash -LiteralPath $package -Algorithm SHA256).Hash
 if ($actual -ine $expected) { throw 'SHA-256 verification failed' }
 'SHA-256 verified'
 ```
 
-For the ZIP, set `$package` to `omniglove-toolbox-1.0.0-windows-x86_64.zip`.
+For the ZIP, set `$package` to `omniglove-toolbox-1.0.1-windows-x86_64.zip`.
 
 ## Setup Installer
 
-Run `omniglove-toolbox-1.0.0-windows-x86_64-setup.exe`, choose Chinese or English and complete administrator authentication. The default location is `Program Files\OmniGlove Toolbox`. Launch from the Start menu.
+Run `omniglove-toolbox-1.0.1-windows-x86_64-setup.exe`, choose Chinese or English and complete administrator authentication. The default location is `Program Files\OmniGlove Toolbox`. Launch from the Start menu.
 
 Existing installations prompt for an upgrade, reinstall or downgrade; close the application first. Unknown nonempty folders and user-file conflicts block overwriting. Use a new empty folder for a historical portable package without a manifest.
 
 ## Portable ZIP
 
-Extract the complete `omniglove-toolbox-1.0.0-windows-x86_64.zip` and run `OmniGloveToolbox.exe` in its root. Keep all DLLs and the `plugins`, `qml` and `share` directories.
+Extract the complete `omniglove-toolbox-1.0.1-windows-x86_64.zip` and run `OmniGloveToolbox.exe` in its root. Keep all DLLs and the `plugins`, `qml` and `share` directories.
 
 ## Glove Drivers and Data
 

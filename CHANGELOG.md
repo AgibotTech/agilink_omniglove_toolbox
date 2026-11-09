@@ -1,5 +1,16 @@
 # Release Notes / 版本说明
 
+## v1.0.1 — 2026-11-09
+
+- 优化 Ultra / Lite 遥操作兼容性与连接诊断。
+- 串口列表增加设备名称及可用 SN，简化设备 ID 标签。
+- 完善中英文界面与日志，优化触觉布局和标定完成提示。
+- 改进 Windows 安装向导、应用图标和快捷方式设置。
+
+Improved Ultra/Lite teleoperation compatibility, serial device identification, interface translations, calibration feedback, and Windows installation.
+
+提供 Linux tar.gz / Debian 安装包、Windows ZIP / 安装程序及对应 SHA-256 校验文件。
+
 ## v1.0.0 — 2026-11-05
 
 Initial public package release of OmniGlove Toolbox. / OmniGlove Toolbox 首次公开安装包发布。
@@ -16,3 +27,4 @@ Initial public package release of OmniGlove Toolbox. / OmniGlove Toolbox 首次�
 Release packages are uploaded unchanged. Device connection, calibration writing, firmware updating and physical teleoperation depend on the target hardware and firmware; no additional hardware acceptance testing is claimed by this distribution repository.
 
 发布包保持原始文件内容。设备连接、标定写入、固件升级及实机遥操依赖目标硬件和设备固件，本发行仓库不额外声明实物验收结果。
+

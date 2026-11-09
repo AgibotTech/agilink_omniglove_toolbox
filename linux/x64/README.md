@@ -4,15 +4,15 @@
 
 For Ubuntu 22.04 / 24.04 x86_64 desktops with glibc 2.35 or newer and working OpenGL/EGL graphics drivers.
 
-Download a package and its matching `.sha256` file from the [v1.0.0 Release](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.0).
+Download a package and its matching `.sha256` file from the [v1.0.1 Release](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.1).
 
 ## Debian Installer
 
 Run in the download directory:
 
 ```bash
-sha256sum --check omniglove-toolbox_1.0.0-1_amd64.deb.sha256
-sudo apt install ./omniglove-toolbox_1.0.0-1_amd64.deb
+sha256sum --check omniglove-toolbox_1.0.1-1_amd64.deb.sha256
+sudo apt install ./omniglove-toolbox_1.0.1-1_amd64.deb
 ```
 
 Launch **OmniGlove Toolbox** from the Ubuntu application launcher. Installation configures glove USB permissions for normal and DFU modes; run the application as a normal user afterward.
@@ -20,9 +20,9 @@ Launch **OmniGlove Toolbox** from the Ubuntu application launcher. Installation 
 ## Portable tar.gz
 
 ```bash
-sha256sum --check omniglove-toolbox-1.0.0-linux-x86_64.tar.gz.sha256
-tar -xzf omniglove-toolbox-1.0.0-linux-x86_64.tar.gz
-cd omniglove-toolbox-1.0.0-linux-x86_64
+sha256sum --check omniglove-toolbox-1.0.1-linux-x86_64.tar.gz.sha256
+tar -xzf omniglove-toolbox-1.0.1-linux-x86_64.tar.gz
+cd omniglove-toolbox-1.0.1-linux-x86_64
 sudo share/udev/install-usb-rules.sh
 ./run.sh
 ```
