@@ -4,15 +4,15 @@
 
 适用于 Ubuntu 22.04 / 24.04 x86_64 桌面系统，最低 glibc 2.35。需要可用的 OpenGL/EGL 图形驱动。
 
-从 [v1.0.0 Release](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.0) 下载所选安装包及同名 `.sha256` 文件。
+从 [v1.0.1 Release](https://github.com/AgibotTech/agilink_omniglove_toolbox/releases/tag/v1.0.1) 下载所选安装包及同名 `.sha256` 文件。
 
 ## Debian 安装包
 
 在下载目录执行：
 
 ```bash
-sha256sum --check omniglove-toolbox_1.0.0-1_amd64.deb.sha256
-sudo apt install ./omniglove-toolbox_1.0.0-1_amd64.deb
+sha256sum --check omniglove-toolbox_1.0.1-1_amd64.deb.sha256
+sudo apt install ./omniglove-toolbox_1.0.1-1_amd64.deb
 ```
 
 安装后从 Ubuntu 应用列表启动 **OmniGlove Toolbox**。安装器自动配置手套运行模式和 DFU 模式的 USB 权限，之后以普通用户运行。
@@ -20,9 +20,9 @@ sudo apt install ./omniglove-toolbox_1.0.0-1_amd64.deb
 ## tar.gz 便携包
 
 ```bash
-sha256sum --check omniglove-toolbox-1.0.0-linux-x86_64.tar.gz.sha256
-tar -xzf omniglove-toolbox-1.0.0-linux-x86_64.tar.gz
-cd omniglove-toolbox-1.0.0-linux-x86_64
+sha256sum --check omniglove-toolbox-1.0.1-linux-x86_64.tar.gz.sha256
+tar -xzf omniglove-toolbox-1.0.1-linux-x86_64.tar.gz
+cd omniglove-toolbox-1.0.1-linux-x86_64
 sudo share/udev/install-usb-rules.sh
 ./run.sh
 ```
